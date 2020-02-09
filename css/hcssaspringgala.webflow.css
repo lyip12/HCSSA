@@ -1,8 +1,8 @@
 .body {
   height: 1000px;
   background-color: #e72e2e;
-  background-image: -webkit-gradient(linear, right top, left top, from(#cf0000), to(#830606));
-  background-image: linear-gradient(270deg, #cf0000, #830606);
+  background-image: -webkit-gradient(linear, right top, left top, from(#df0000), color-stop(64%, #a20000));
+  background-image: linear-gradient(270deg, #df0000, #a20000 64%);
 }
 
 .column {

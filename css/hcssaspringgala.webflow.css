@@ -25,9 +25,9 @@
 }
 
 .section {
-  margin-top: 8vw;
-  margin-right: 10vw;
-  margin-left: 10vw;
+  margin-top: 3vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 
 .paragraph {
@@ -53,7 +53,7 @@
 
 .line-divider {
   height: 1px;
-  margin: 10px 10vw;
+  margin: 10px 5vw;
   background-color: #fff;
 }
 
@@ -64,7 +64,7 @@
 .section-2 {
   margin-top: 50px;
   margin-bottom: 80px;
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 
 .column-5 {
@@ -88,7 +88,7 @@
 }
 
 .section-3 {
-  margin: 70px 10vw 80px;
+  margin: 70px 5vw 80px;
 }
 
 .title {
@@ -171,12 +171,12 @@
 }
 
 .showleft {
-  margin: 10px 10vw 80px 0px;
+  margin: 10px 5vw 80px 0px;
   padding-top: 50px;
 }
 
 .rightalign {
-  margin-left: 10vw;
+  margin-left: 5vw;
   text-align: right;
 }
 
@@ -197,12 +197,12 @@
 }
 
 .showright {
-  margin: 10px 0px 80px 10vw;
+  margin: 10px 0px 80px 5vw;
   padding-top: 50px;
 }
 
 .leftalign {
-  margin-right: 10vw;
+  margin-right: 5vw;
   text-align: left;
 }
 

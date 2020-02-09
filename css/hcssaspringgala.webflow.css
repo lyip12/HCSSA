@@ -25,9 +25,9 @@
 }
 
 .section {
-  margin-top: 75px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-top: 8vw;
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 
 .paragraph {
@@ -53,7 +53,7 @@
 
 .line-divider {
   height: 1px;
-  margin: 10px 100px;
+  margin: 10px 10vw;
   background-color: #fff;
 }
 
@@ -64,7 +64,7 @@
 .section-2 {
   margin-top: 50px;
   margin-bottom: 80px;
-  margin-left: 100px;
+  margin-left: 10vw;
 }
 
 .column-5 {
@@ -88,7 +88,7 @@
 }
 
 .section-3 {
-  margin: 70px 100px 80px;
+  margin: 70px 10vw 80px;
 }
 
 .title {
@@ -171,12 +171,12 @@
 }
 
 .showleft {
-  margin: 10px 100px 80px 0px;
+  margin: 10px 10vw 80px 0px;
   padding-top: 50px;
 }
 
 .rightalign {
-  margin-left: 100px;
+  margin-left: 10vw;
   text-align: right;
 }
 
@@ -197,12 +197,12 @@
 }
 
 .showright {
-  margin: 10px 0px 80px 100px;
+  margin: 10px 0px 80px 10vw;
   padding-top: 50px;
 }
 
 .leftalign {
-  margin-right: 100px;
+  margin-right: 10vw;
   text-align: left;
 }
 
@@ -215,5 +215,86 @@
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: -20px;
+}
+
+.paragraphright {
+  margin-bottom: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 300;
+  text-align: right;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 991px) {
+  .section {
+    margin-top: 8vw;
+  }
+  .column-3 {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .column-3 {
+    padding-left: 0px;
+  }
+  .column-5 {
+    padding-left: 0px;
+  }
+  .columns-2 {
+    display: block;
+  }
+  .columns-4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .nopadding {
+    padding-bottom: 20px;
+  }
+  .nopadding1 {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .section {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .line-divider {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .section-2 {
+    margin-left: 10vw;
+  }
+  .column-6 {
+    padding-right: 10vw;
+  }
+  .section-3 {
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .showleft {
+    margin-right: 10vw;
+  }
+  .rightalign {
+    margin-left: 10vw;
+  }
+  .showright {
+    margin-left: 10vw;
+  }
+  .leftalign {
+    margin-right: 10vw;
+  }
 }
 

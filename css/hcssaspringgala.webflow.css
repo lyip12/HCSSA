@@ -32,11 +32,11 @@
 
 .paragraph {
   margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Long Cang', sans-serif;
   color: #fff;
-  font-size: 12px;
-  line-height: 16px;
-  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
   text-align: left;
   letter-spacing: 0.1em;
 }
@@ -47,7 +47,10 @@
 }
 
 .yellow-paragraph {
+  font-family: 'Long Cang', sans-serif;
   color: #ffd900;
+  font-size: 16px;
+  line-height: 18px;
   font-style: normal;
 }
 
@@ -118,7 +121,7 @@
 }
 
 .image {
-  height: 100px;
+  max-height: 150px;
   margin-bottom: 20px;
 }
 
@@ -159,8 +162,8 @@
   margin-bottom: 0px;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 18px;
   font-weight: 300;
   letter-spacing: 0.1em;
 }
@@ -219,13 +222,18 @@
 
 .paragraphright {
   margin-bottom: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Long Cang', sans-serif;
   color: #fff;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 18px;
   font-weight: 300;
   text-align: right;
   letter-spacing: 0.1em;
+}
+
+.image-copy {
+  max-height: 100px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 991px) {
@@ -239,9 +247,9 @@
 
 @media (max-width: 767px) {
   .section {
-    margin-top: 10vw;
-    margin-right: 10vw;
-    margin-left: 10vw;
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
   }
   .column-3 {
     padding-left: 0px;
@@ -252,6 +260,9 @@
   .columns-2 {
     display: block;
   }
+  .image {
+    max-height: 80px;
+  }
   .columns-4 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -261,6 +272,9 @@
   }
   .nopadding1 {
     padding-bottom: 20px;
+  }
+  .image-copy {
+    max-height: 80px;
   }
 }
 
@@ -284,6 +298,9 @@
     margin-right: 10vw;
     margin-left: 10vw;
   }
+  .image {
+    max-height: 50px;
+  }
   .showleft {
     margin-right: 10vw;
   }
@@ -295,6 +312,9 @@
   }
   .leftalign {
     margin-right: 10vw;
+  }
+  .image-copy {
+    max-height: 50px;
   }
 }
 

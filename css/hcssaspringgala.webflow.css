@@ -36,6 +36,7 @@
   color: #fff;
   font-size: 16px;
   line-height: 18px;
+  font-style: normal;
   font-weight: 400;
   text-align: left;
   letter-spacing: 0.1em;
@@ -188,14 +189,14 @@
   margin-bottom: 30px;
 }
 
-.columns-5 {
+.columns-5-0 {
   margin-top: 30px;
-  margin-right: -20px;
-  margin-bottom: 30px;
+  margin-right: -10px;
+  margin-bottom: 10px;
 }
 
 .nopadding {
-  padding-right: 20px;
+  padding-right: 10px;
   padding-left: 0px;
 }
 
@@ -211,13 +212,13 @@
 
 .nopadding1 {
   padding-right: 0px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .columns-5-1 {
   margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: -20px;
+  margin-bottom: 10px;
+  margin-left: -10px;
 }
 
 .paragraphright {
@@ -236,16 +237,83 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 991px) {
+.columns-5-10 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+}
+
+.columns-5-00 {
+  margin-top: 0px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+
+.columns-5-copy {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: #a20000;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  cursor: pointer;
+}
+
+.link-block-copy {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.div-block-2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.section-0 {
+  margin: 10px 5vw 80px;
+  padding-top: 50px;
+}
+
+.link {
+  color: #fff;
+}
+
+.column-11 {
+  padding-left: 0px;
+}
+
+.videonopadding {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.column-5-copy {
+  padding-right: 0px;
+  padding-left: 10vw;
+}
+
+.sectionlogo {
+  margin-top: 10px;
+  margin-bottom: 80px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 991px) {
   .section {
     margin-top: 8vw;
   }
   .column-3 {
     padding-left: 0px;
   }
+  .section-0 {
+    margin-top: 8vw;
+  }
+  .sectionlogo {
+    margin-top: 8vw;
+  }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .section {
     margin-top: 5vw;
     margin-right: 5vw;
@@ -276,9 +344,26 @@
   .image-copy {
     max-height: 80px;
   }
+  .columns-5-copy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .section-0 {
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+  .column-5-copy {
+    padding-left: 0px;
+  }
+  .sectionlogo {
+    margin-top: 5vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .section {
     margin-top: 10vw;
     margin-right: 10vw;
@@ -315,6 +400,16 @@
   }
   .image-copy {
     max-height: 50px;
+  }
+  .section-0 {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+  }
+  .sectionlogo {
+    margin-top: 10vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
   }
 }
 
